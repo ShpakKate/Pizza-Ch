@@ -61,10 +61,11 @@ async function createOrder() {
     });
 
     alert.innerText = 'Cпaсибо за заказ';
+    alert.className = ('alert');
+
+    close.className = ('close');
     close.innerText = '✖';
 
-    alert.className = ('alert');
-    close.className = ('close');
     wrapper.className = ('dark-backround');
 
     body.appendChild(wrapper);
